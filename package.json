@@ -1,0 +1,25 @@
+{
+  "name": "javascript-profesional",
+  "version": "1.0.0",
+  "description": "Curso profesional de JavaScript con Platzi",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GANESHCODE12/javascript-profesional.git"
+  },
+  "author": "Javier Cortes <balarama10@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GANESHCODE12/javascript-profesional/issues"
+  },
+  "homepage": "https://github.com/GANESHCODE12/javascript-profesional#readme",
+  "devDependencies": {
+    "live-server": "^1.1.0"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  }
+}
