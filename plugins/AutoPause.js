@@ -18,6 +18,14 @@ class AutoPause {
         );
 
         observer.observe(this.player.media)
+
+        document.addEventListener(
+            "visibilitychange", this.handleVisibilityChange = () => {
+            document.visibilityState === "visible"
+                ? this.player.play()
+                : this.player.pause()
+            }
+        );
     }
 }
 
