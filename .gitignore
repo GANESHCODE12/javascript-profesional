@@ -102,3 +102,7 @@ dist
 
 # TernJS port file
 .tern-port
+
+
+#font-awesome-4.7.0
+assets/font-awesome-4.7.0
